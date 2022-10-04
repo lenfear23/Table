@@ -1,0 +1,93 @@
+body{
+    background-image: url(img/bg.jpg);
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+}
+
+nav{
+   
+    width: 100%;
+    height: 100px;
+}
+nav .navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    display: block;
+}
+.dogo:hover{
+    cursor: pointer;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+}
+#nulla{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.almale{
+    background-image: url(img/almale.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+.hamburger{
+    background-image: url(img/hamburger.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+.hotdog{
+    background-image: url(img/hotdog.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+.viz{
+    background-image: url(img/water.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+.kozep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+#cal{
+    font-style: italic;
+}
+.delete{
+    font-size: 20px;
+    color: red;
+}
